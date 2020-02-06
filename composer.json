@@ -1,9 +1,15 @@
 {
-    "name": "verticaly/bonus-points-plugin",
+    "name": "bitbag/bonus-points-plugin",
     "type": "sylius-plugin",
     "keywords": ["sylius", "sylius-plugin"],
     "description": "Bonus points plugin for Sylius.",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/BitBagCommerce/SyliusBonusPointsPlugin"
+        }
+    ],
     "require": {
         "php": "^7.2",
 
@@ -44,12 +50,12 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Verticaly\\SyliusBonusPointsPlugin\\": "src/"
+            "BitBag\\SyliusBonusPointsPlugin\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\Verticaly\\SyliusBonusPointsPlugin\\": [
+            "Tests\\BitBag\\SyliusBonusPointsPlugin\\": [
                 "tests/",
                 "tests/Application/src"
             ]
