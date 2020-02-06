@@ -1,5 +1,5 @@
 {
-    "name": "bitbag/bonus-points-plugin",
+    "name": "verticaly/bonus-points-plugin",
     "type": "sylius-plugin",
     "keywords": ["sylius", "sylius-plugin"],
     "description": "Bonus points plugin for Sylius.",
@@ -44,12 +44,12 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "BitBag\\SyliusBonusPointsPlugin\\": "src/"
+            "Verticaly\\SyliusBonusPointsPlugin\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\BitBag\\SyliusBonusPointsPlugin\\": [
+            "Tests\\Verticaly\\SyliusBonusPointsPlugin\\": [
                 "tests/",
                 "tests/Application/src"
             ]
